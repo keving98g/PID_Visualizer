@@ -66,7 +66,7 @@ public void setup() {
   background(51);
   drawDashedLine(x, middleLineY+10);
   drawDashedLine(x, middleLineY-10);
-  car = loadImage("red-car-top-view-hi.png");
+  car = loadImage("blue_car.png");
   imageMode(CENTER);
   kpy = map(Kp, MIN_KP, MAX_KP, MIN_SLIDER, MAX_SLIDER);
   kiy = map(Ki, MIN_KI, MAX_KI, MIN_SLIDER, MAX_SLIDER);
